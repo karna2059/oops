@@ -16,11 +16,11 @@
 //            instanceCount++;
 //            staticCount++;
 
-//            Console.WriteLine ("instance count: " + instanceCount);
-//            Console.WriteLine ("static count: " + staticCount);
+//            Console.WriteLine("instance count: " + instanceCount);
+//            Console.WriteLine("static count: " + staticCount);
 //        }
 //    }
-   
+
 //    internal class Program
 //    {
 //        static void Main(string[] args)
@@ -31,7 +31,7 @@
 //            c1.increment();
 //            c1.increment();
 //            c2.increment();
-//            c2.increment(); 
+//            c2.increment();
 //        }
 //    }
 //}
