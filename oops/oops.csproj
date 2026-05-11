@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="methodswithnoparametersandnoreturntype.cs" />
     <Compile Include="methodswithparametersnoreturnvalue.cs" />
+    <Compile Include="practice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

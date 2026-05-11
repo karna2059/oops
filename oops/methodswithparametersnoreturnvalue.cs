@@ -8,16 +8,16 @@
 //{
 //    class myclass
 //    {
-        
+
 //        public void Add(int a, int b)
 //        {
 //            int c;
-//            c=a+ b;
+//            c = a + b;
 //            Console.WriteLine("the sum of a+b is:" + c);
 //        }
 //        public void Greet(string x)
 //        {
-//            Console.WriteLine("heelo!welcome to the methods " +  x);
+//            Console.WriteLine("heelo!welcome to the methods " + x);
 //        }
 //    }
 //    internal class methodswithparametersnoreturnvalue
@@ -25,8 +25,8 @@
 //        static void Main(string[] args)
 //        {
 //            myclass myclass = new myclass();
-           
-//            myclass.Add(10,20);
+
+//            myclass.Add(10, 20);
 //            myclass.Greet("karna");
 //        }
 //    }
