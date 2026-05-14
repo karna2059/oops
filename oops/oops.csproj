@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="constructor.cs" />
+    <Compile Include="empdetails.cs" />
     <Compile Include="employeedetails.cs" />
     <Compile Include="methodswithnoparametersandnoreturntype.cs" />
     <Compile Include="methodswithnoparameterswithreturnvalue.cs" />
