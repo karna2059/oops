@@ -16,21 +16,21 @@
 //        public void getdetails()
 //        {
 //            Console.WriteLine("student id:");
-//             id = Convert.ToInt32(Console.ReadLine());
+//            id = Convert.ToInt32(Console.ReadLine());
 //            Console.WriteLine("student name:");
-//             name = Console.ReadLine();
+//            name = Console.ReadLine();
 //            Console.WriteLine("student age:");
-//             age = Convert.ToInt32(Console.ReadLine());
+//            age = Convert.ToInt32(Console.ReadLine());
 //            Console.WriteLine("student course:");
-//             course = Console.ReadLine();
-            
+//            course = Console.ReadLine();
+
 
 
 //        }
-//        public  void displaydetails()
+//        public void displaydetails()
 //        {
 //            Console.WriteLine("student details:");
-//            Console.WriteLine("student id: " +id );
+//            Console.WriteLine("student id: " + id);
 //            Console.WriteLine("student name: " + name);
 //            Console.WriteLine("student age: " + age);
 //            Console.WriteLine("student course: " + course);
@@ -44,17 +44,17 @@
 //            student student = new student();
 
 //            student[] students = new student[2];
-//            for(int i = 0; i < students.Length; i++)
+//            for (int i = 0; i < students.Length; i++)
 //            {
 //                students[i] = new student();
 //                students[i].getdetails();
-               
+
 //            }
-//          for(int i = 0; i < students.Length; i++)
+//            for (int i = 0; i < students.Length; i++)
 //            {
 //                students[i].displaydetails();
 //            }
-       
+
 
 //        }
 

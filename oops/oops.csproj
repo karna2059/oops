@@ -50,9 +50,11 @@
     <Compile Include="methodswithnoparameterswithreturnvalue.cs" />
     <Compile Include="methodswithparametersandwithreturnvalue.cs" />
     <Compile Include="methodswithparametersnoreturnvalue.cs" />
+    <Compile Include="parameterizedconstructor.cs" />
     <Compile Include="practice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="student1.cs" />
     <Compile Include="studentdetails.cs" />
     <Compile Include="studentmarks.cs" />
   </ItemGroup>
