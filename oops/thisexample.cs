@@ -20,7 +20,7 @@ namespace oops
             this.email = email;
         }
 
-        public  void display()
+        public  void display()  
         {
             Console.WriteLine("student id is :" + id);
             Console.WriteLine("student name is :" + name);
@@ -33,6 +33,16 @@ namespace oops
         {
             student obj=new student(1,"karna","abc@gamil.com");
             obj.display();
+            Console.WriteLine("please enter student id");
+            int id=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please student name");
+            string name=Console.ReadLine();
+            Console.WriteLine("please enter email");
+            string email=Console.ReadLine();
+            Console.WriteLine("student id is :" + id);
+            Console.WriteLine("student name is : " + name);
+            Console.WriteLine("student email is :" + email);
+          
         }
     }
 }
