@@ -60,6 +60,7 @@
     <Compile Include="studentdetails.cs" />
     <Compile Include="studentmarks.cs" />
     <Compile Include="this.cs" />
+    <Compile Include="thisexample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
