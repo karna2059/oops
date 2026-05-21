@@ -43,15 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessModifier.cs" />
     <Compile Include="cardetails.cs" />
     <Compile Include="constructor.cs" />
     <Compile Include="constructoroverloading.cs" />
     <Compile Include="empdetails.cs" />
     <Compile Include="employeedetails.cs" />
+    <Compile Include="employoverloading.cs" />
     <Compile Include="methodswithnoparametersandnoreturntype.cs" />
     <Compile Include="methodswithnoparameterswithreturnvalue.cs" />
     <Compile Include="methodswithparametersandwithreturnvalue.cs" />
     <Compile Include="methodswithparametersnoreturnvalue.cs" />
+    <Compile Include="overloading.cs" />
+    <Compile Include="overloding1.cs" />
     <Compile Include="parameterizedconstructor.cs" />
     <Compile Include="practice.cs" />
     <Compile Include="Program.cs" />
