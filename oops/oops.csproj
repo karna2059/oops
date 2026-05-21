@@ -61,6 +61,8 @@
     <Compile Include="studentmarks.cs" />
     <Compile Include="this.cs" />
     <Compile Include="thisexample.cs" />
+    <Compile Include="thisusingarray.cs" />
+    <Compile Include="thiswithoutusingarray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

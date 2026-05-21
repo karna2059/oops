@@ -1,48 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace oops
-{
-    class student
-    {
-        int id;
-        string name;
-        string email;
+//namespace oops
+//{
+//    class student
+//    {
+//        int id;
+//        string name;
+//        string email;
 
-        public student(int id, string name, string email)
-        {
-            this.id = id;
-            this.name = name;
-            this.email = email;
-        }
+//        public student(int id, string name, string email)
+//        {
+//            this.id = id;
+//            this.name = name;
+//            this.email = email;
+//        }
 
-        public  void display()  
-        {
-            Console.WriteLine("student id is :" + id);
-            Console.WriteLine("student name is :" + name);
-            Console.WriteLine("student email is :" + email);
-        }
-    }
-    internal class thisexample
-    {
-        static void Main(string[] args)
-        {
-            student obj=new student(1,"karna","abc@gamil.com");
-            obj.display();
-            Console.WriteLine("please enter student id");
-            int id=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("please student name");
-            string name=Console.ReadLine();
-            Console.WriteLine("please enter email");
-            string email=Console.ReadLine();
-            Console.WriteLine("student id is :" + id);
-            Console.WriteLine("student name is : " + name);
-            Console.WriteLine("student email is :" + email);
+//        public  void display()  
+//        {
+//            Console.WriteLine("student id is :" + id);
+//            Console.WriteLine("student name is :" + name);
+//            Console.WriteLine("student email is :" + email);
+//        }
+//    }
+//    internal class thisexample
+//    {
+//        static void Main(string[] args)
+//        {
+//            student obj=new student(1,"karna","abc@gamil.com");
+//            obj.display();
+//            Console.WriteLine("please enter student id");
+//            int id=Convert.ToInt32(Console.ReadLine());
+//            Console.WriteLine("please student name");
+//            string name=Console.ReadLine();
+//            Console.WriteLine("please enter email");
+//            string email=Console.ReadLine();
+//            Console.WriteLine("student id is :" + id);
+//            Console.WriteLine("student name is : " + name);
+//            Console.WriteLine("student email is :" + email);
+       
+
           
-        }
-    }
-}
+//        }
+//    }
+//}
