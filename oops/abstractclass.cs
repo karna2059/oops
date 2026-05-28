@@ -17,7 +17,7 @@ namespace oops
             Console.WriteLine("School Management Details");
         }
 
-        public abstract void schoolmanagement();
+          public abstract void schoolmanagement();
 
         public void Schoolname()
         {
@@ -28,8 +28,8 @@ namespace oops
 
     class Teacher : Person
     {
-        string name;
-        string subject;
+       public string name {  get; set; }
+      public string subject {  get; set; }
 
         public Teacher(string name, string subject)
         {
@@ -47,9 +47,9 @@ namespace oops
 
     class Student : Person
     {
-        int rollno;
-        string name;
-        int age;
+       public int rollno {  get; set; }
+       public string name {  get; set; }
+        public int age {  get; set; }
 
 
         public Student(int rollno, string name, int age)
@@ -73,7 +73,7 @@ namespace oops
         static void Main(string[]args)
         {
        
-            Student s = new Student(101, "karna", 22);
+            Student s = new Student(101,"karna",22);
 
             Teacher t = new Teacher("sai kumar", ".Net Fullstack");
 
@@ -82,6 +82,27 @@ namespace oops
             t.schoolmanagement();
 
             s.schoolmanagement();
+
+            s.rollno= 102;
+
+            s.name = "shiva";
+
+            s.age = 21;
+
+            Console.WriteLine("student name is : "+ s.rollno);
+            Console.WriteLine("student name is :" + s.name);
+            Console.WriteLine("student age is  :" + s.age);
+
+
+            t.name = "santhosh";
+
+            t.subject = "java";
+
+            Console.WriteLine("teacher name is :" + t.name);
+            Console.WriteLine("subject is :" + t.subject);
+
+
+
         }
     }
 }
