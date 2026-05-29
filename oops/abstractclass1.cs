@@ -37,16 +37,31 @@ namespace oops
         public override void role()
         {
             Console.WriteLine("roll no is :" + rollno);
-            Console.WriteLine("i am a student ");
+            Console.WriteLine("I am a student ");
+        }
+    }
+
+    class teacher : person
+    {
+        public teacher(string name, int age ) : base(name, age)
+        {
+
+        }
+        public override void role()
+        {
+            Console.WriteLine("I am a teacher");
         }
     }
     internal class abstractclass1
     {
         static void Main(string[] args)
         {
-            student s = new student("karna",22,101);
+            person s = new student("karna",22,101);
             s.display();
             s.role();
+            person t = new teacher("sai kumar", 40);
+            t.display();
+            t.role();
             
         }
     }
