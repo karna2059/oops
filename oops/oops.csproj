@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="abstractclass.cs" />
     <Compile Include="abstractclass1.cs" />
+    <Compile Include="abstractsingleinheritence.cs" />
     <Compile Include="AccessModifier.cs" />
     <Compile Include="cardetails.cs" />
     <Compile Include="constructor.cs" />
