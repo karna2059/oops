@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="abstractclass.cs" />
+    <Compile Include="abstractclass1.cs" />
     <Compile Include="AccessModifier.cs" />
     <Compile Include="cardetails.cs" />
     <Compile Include="constructor.cs" />
